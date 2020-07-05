@@ -94,9 +94,9 @@
 // })
 
 
-
-
-
+//
+//
+//
 // describe('EDIT PROFILE',() => {
 //     before(() => {
 //         browser.maximizeWindow();
@@ -111,8 +111,8 @@
 //         $("//select[@name='tShirtSize']").selectByVisibleText('Men/Unisex - XL');
 //         browser.pause(2000);
 //     });
-// })
-
+//  })
+//
 
 
 

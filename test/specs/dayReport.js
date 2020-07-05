@@ -12,9 +12,9 @@ describe('CREATE DAY REPORT', () => {
         const actualTitle = $("//h1").getText();
         expect(actualTitle).eq('Daily reports')
     });
-    it.skip('should Button create day report is clickable', function () {
+    it('should Button create day report is clickable', function () {
          const dayReportBtn = $("//a[@qa='create-day-report-button']");
-         browser.pause(1000);
+         browser.pause(500);
          const actualResult = dayReportBtn.isClickable();
          expect(actualResult).true;
     });
